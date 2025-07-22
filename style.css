@@ -1,0 +1,92 @@
+/* reset and common code starts here*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+div{
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 50rem;
+}
+
+.btn{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+/* reset and common code ends here */
+
+/* specificity issue: avoid id/tag example starts here */
+
+/* #container h2 {
+  color: brown;
+}
+
+.card h2 {
+  color: green;
+} */
+/* specificity issue: avoid id/tag example ends */
+
+/* CSS class clashes example starts here*/
+/* .title {
+  color: brown;
+} */
+/* CSS class clashes example ends here*/
+
+
+/* bem starts here  */
+/* Card design starts here */
+.card{
+    background-color: bisque;
+}
+
+.card--large{
+    width: 70rem;
+}
+
+.card_title{
+    color: brown;
+}
+
+.card_text{
+
+}
+
+.card_btn{
+    background-color: aqua;
+}
+
+/* Card design ends here */
+
+
+/* Feedback design starts here */
+.feedback{
+    background-color: rgb(187, 185, 185);
+}
+
+.feedback--medium{
+    width: 60rem;
+}
+
+.feedback_title{
+
+}
+
+.feedback_text{
+
+}
+
+.feedback_btn{
+    background-color: rgb(247, 144, 107);
+}
+
+.feedback_btn--large{
+    width: 10rem;
+}
+/* Feedback design ends here */
+
+/* bem ends here  */
