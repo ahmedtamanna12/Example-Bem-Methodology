@@ -2,10 +2,10 @@
 
 ## why bem?
 
-    BEM(Methodoly/Architecture) : (Block, Element, Modifier) Methodology helps to solve specificity issue with equal specificity
-    It is a methodology helps to organize large CSS codes.
-    It helps to avoid CSS class clashes
-    A common rules for classes naming
+. BEM(Methodoly/Architecture) : (Block, Element, Modifier) Methodology helps to solve specificity issue with equal specificity
+. It is a methodology helps to organize large CSS codes.
+. It helps to avoid CSS class clashes
+. A common rules for classes naming
 
 ## What is BEM and their using procedure?
 
